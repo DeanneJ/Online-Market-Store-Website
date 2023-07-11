@@ -1,0 +1,178 @@
+
+/* Eric Meyer's CSS Reset */
+/* v2.0 | 20110126 */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #2c84ffe6;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #2c84ffe6;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; /* Added property to hide content overflow */
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffffd4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-details {
+    margin: 30px;
+}
+
+.profile-details label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile-actions {
+    text-align: center;
+    display: flex;
+    margin-left: 25px;
+    font-size: 20px; 
+}
+
+.profile-actions button {
+    background-color: #3550ff;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 50px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.profile-actions button:hover {
+    background-color: cornflowerblue;
+}
+
+#editProfileForm,
+#changePasswordForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#editProfileForm h2,
+#changePasswordForm h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#editProfileForm input,
+#changePasswordForm input {
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #02020272;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#editProfileForm button,
+#changePasswordForm button {
+    padding: 15px 25px;
+    background-color: #3550ff;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#editProfileForm button:hover,
+#changePasswordForm button:hover {
+    background-color: #5c71ff;
+    font-size: 16px;
+    padding: 15px 23px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success {
+    color: red;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+}

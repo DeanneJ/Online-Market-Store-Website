@@ -1,0 +1,211 @@
+/* CSS styles for feedback page */
+
+/* Eric Meyer's CSS Reset */
+/* v2.0 | 20110126 */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+    position: relative;
+    overflow: auto;
+    background-color: #ffffff;
+  }
+ 
+/* Styles for the container */
+.container {
+    max-width: 1000px;
+    padding: 40px;
+    background-color: #ffffffe8;
+    background-image: url("Images/back.jpg");
+    box-shadow: 5px 5px 8px 5px rgba(101, 139, 244, 0.456);
+    margin: 10px auto 100px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+/* Styles for the heading */
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the form */
+form {
+    margin-top: 20px;
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-left: 120px;
+    font-size: 100%;
+    margin-top: 20px;
+    font-weight: 2000;
+}
+
+/* Styles for labels */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Styles for text input and textarea */
+input[type="text"],
+textarea {
+    width: 700px;
+    padding: 5px;
+    border: 1px solid #02020272;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input[type="email"],
+textarea {
+    width: 700px;
+    padding: 5px;
+    border: 1px solid #02020272;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/* Styles for textarea */
+textarea {
+    height: 100px;
+}
+
+/* Styles for submit button */
+button[type="submit"] {
+    background-color: #3550ffba;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Styles for submit button on hover */
+button:hover {
+    background-color: #7487ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 23px;
+    border: 2px solid #1100ff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Styles for delete button */
+a.delete-button {
+    display: inline-block;
+    background-color: #3550ffba;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 29px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Styles for delete button on hover */
+a.delete-button:hover {
+    background-color: #7487ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 26px;
+    border: 2px solid #1100ff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Styles for rating section */
+.rating {
+    unicode-bidi: normal;
+    direction: unset;
+    text-align: center;
+    position: relative;
+}
+
+/* Styles for star rating container */
+.star-rating {
+    margin-right: 120px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 175px;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjREREREREIiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+    background-size: contain;
+}
+
+/* Styles for star icons */
+.star-rating i {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjRkZERjg4IiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+    background-size: contain;
+}
+
+/* Styles for rating input */
+.star-rating input {
+    opacity: 0;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+}
+
+/* Styles for highlighting stars on hover and selection */
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+
+/* Additional styles for rating levels */
+.star-rating i ~ i {
+  width: 40%;
+}
+.star-rating i ~ i ~ i {
+  width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+  width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+  width: 100%;
+}
+

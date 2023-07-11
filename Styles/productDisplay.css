@@ -1,0 +1,105 @@
+.body{
+    background-image: url('Images/2.jpg'); 
+    background-size: 100%; 
+    background-attachment: fixed; 
+    background-color: #ffffff;
+}
+
+
+.container{
+    min-height: 600px;
+    height: auto;
+    width: 1600px;
+    box-shadow: 5px 5px 8px 5px rgb(157, 165, 255);
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: #ffffffe8;
+}
+
+.btn {
+    text-align: center;
+    margin-left: 250px;
+    border: none;
+  }
+    
+  .btn a {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff !important;
+    position: relative;
+    border-radius: 5px;
+}
+  
+a:visited{
+    color: unset;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+  
+.product {
+    width: 23%; /*Adjust the width as per your preference */ 
+    margin-bottom: 20px;
+    border: 3px solid #4800ff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /*height:400px;
+    width:400px;*/
+}
+
+.productCategory {
+    width: 30%; /*Adjust the width as per your preference */ 
+    margin-bottom: 20px;
+    border: 3px solid #4800ff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /*height:400px;
+    width:400px;*/
+}
+  
+.product img, .productCategory img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px #000;
+}
+  
+.product h3, .productCategory h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(142, 150, 234);
+}
+
+
+.product h4, .productCategory h4 {
+    margin-bottom: -25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(142, 150, 234);
+}
+  
+.product p, .productCategory p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0037ff;
+    font-family: 'Merriweather'!important;
+}
+

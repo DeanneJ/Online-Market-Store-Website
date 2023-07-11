@@ -1,0 +1,81 @@
+/*  Kaveeshwara K.A.Y.P - IT22641960  */
+
+
+.container-layout {
+    min-height: 355px;
+    height: auto;
+    width: 1500px;
+    box-shadow: 5px 5px 8px 5px rgb(157, 165, 255);
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.432), rgb(188, 220, 255));
+    background-blend-mode: screen;
+  }
+  
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+th {
+    font-size: 30px;
+    width: 225px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+td {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+/* tr elements that immediately follow another tr element.*/
+tr+tr {
+    border-top: 5px solid black;
+}
+
+.update-btn {
+    background-color: #3550ff;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;  
+}
+
+.update-btn:hover {
+    background-color: #5c71ff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff2121;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+}
+
+.delete-btn:hover {
+    background-color: #ff5757;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}

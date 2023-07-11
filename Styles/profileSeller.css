@@ -1,0 +1,77 @@
+
+/*Styles for the seller heading*/
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile container styles */
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Profile info styles */
+.profile-info {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+}
+
+/* Profile actions styles */
+.profile-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-actions a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-actions a.update {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.profile-actions a.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.profile-actions a:hover {
+  opacity: 0.8;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-info h2 {
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  margin: 0;
+}
+
+
+ 

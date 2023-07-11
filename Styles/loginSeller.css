@@ -1,0 +1,116 @@
+/* CSS styles for seller login page */
+
+/* Eric Meyer's CSS Reset */
+/* v2.0 | 20110126 */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, 
+h1, h2, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+    position: relative;
+    overflow: auto;
+    background-color: #ffffff;
+  }
+ 
+/* Styles for the container */
+.container {
+    max-width: 1000px;
+    padding: 40px;
+    background-color: #ffffffe8;
+    background-image: url("Images/back.jpg");
+    box-shadow: 5px 5px 8px 5px rgba(101, 139, 244, 0.456);
+    margin: 10px auto 100px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+/* Styles for the heading */
+h1 , h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h4{
+    margin-left: 370px;
+}
+
+/* Styles for the form */
+form {
+    margin-top: 20px;
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-left: 120px;
+    font-size: 100%;
+    margin-top: 20px;
+    font-weight: 2000;
+}
+
+/* Styles for labels */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Styles for text input and textarea */
+input[type="text"],
+textarea {
+    width: 700px;
+    padding: 5px;
+    border: 1px solid #02020272;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input[type="password"],
+textarea {
+    width: 700px;
+    padding: 5px;
+    border: 1px solid #02020272;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.forgot_password{
+    margin-left:200px;
+    font-size: 20px;
+}
+
+
+
+/* Styles for submit button */
+button[type="submit"] {
+    background-color: #3550ffba;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+/* Styles for submit button on hover */
+button:hover {
+    background-color: #7487ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 23px;
+    border: 2px solid #1100ff;
+    border-radius: 8px;
+    cursor: pointer;
+}

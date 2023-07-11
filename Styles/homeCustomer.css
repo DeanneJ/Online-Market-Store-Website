@@ -1,0 +1,84 @@
+body {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-image: linear-gradient(rgba(239, 240, 248, 0.9), rgba(221, 224, 239, 0.9)), url(1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        /*.index {
+            color: white;
+            padding-left: 800px;
+            padding-top:0px;
+            padding-bottom:100px;
+            
+        }*/
+
+        .heading {
+            color: white;
+        }
+
+        .container2 {
+            width: 80%;
+            height: 600px;
+            padding: 5%;
+            margin: 0 auto;
+            margin-top:-600px;
+        }
+
+        .search-bar {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left:750px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            max-width: 400px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 60px;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: #cac7ff;
+        }
+
+        ::placeholder {
+            color: #cac7ff;
+        }
+
+        .search-bar button {
+            border: 0;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background: #58629b;
+            cursor: pointer;
+        }
+
+        .homeback {
+            width: 100%;
+            margin: 50px auto;
+            height:600px;
+        }
+
+        .welcome {
+            color:white;
+            font-family: arial, helvetica, sans-serif;
+            font-size: 20px;
+            padding-left:700px;
+            padding-top:0px;
+            letter-spacing: 5px;
+        }
+
+        .hello{
+            float:right;
+            padding-right:300px;
+            position:absolute;
+            top:600px;
+            right:50px;
+        }

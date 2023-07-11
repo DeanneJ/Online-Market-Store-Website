@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.profile-details label {
+    font-weight: bold;
+}
+
+.profile-details span {
+    margin-left: 10px;
+}
+
+.profile-actions {
+    text-align: center;
+}
+
+.profile-actions button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-actions button:hover {
+    background-color: cornflowerblue;
+}
+
+#editProfileForm,
+#changePasswordForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#editProfileForm h2,
+#changePasswordForm h2 {
+    margin-bottom: 10px;
+}
+
+#editProfileForm input,
+#changePasswordForm input {
+    width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+#editProfileForm button,
+#changePasswordForm button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editProfileForm button:hover,
+#changePasswordForm button:hover {
+    background-color: cornflowerblue;
+}
+.error{
+    color : red;
+    border: 1px solid red;
+    padding : 20px;
+    font-size: 22px;
+    margin-bottom:10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+/*
+.success{
+    color : red;
+    border: 1px solid red;
+    padding : 20px;
+    font-size: 22px;
+    margin-bottom:10px;
+  
+    
+    
+
+}*/
+div{
+    border-radius: 5px;
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+}
+

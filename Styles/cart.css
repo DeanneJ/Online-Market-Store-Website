@@ -1,0 +1,132 @@
+.container-layout {
+    height: 400px;
+    width: 1000px;
+    box-shadow: 5px 5px 8px 5px rgb(157, 165, 255);
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: #ffffffe8;
+  }
+
+  .product-image {
+    width: 300px;
+    height: 300px;
+    margin: auto ;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+  .product-details-container {
+    padding: 2px 29px;
+    height: 500px;
+    width: 500px;
+    margin: -300px 50px 0px auto;
+  }
+
+.product-details-container h6 {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.product-name {
+    font-size: 40px;
+    margin-top: -15px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(142, 150, 234);
+}
+
+.price {
+    font-family: 'Merriweather'!important;
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .new-price {
+    font-family: 'Merriweather'!important;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+    margin-top: 8px;
+  }
+    
+.p-des {
+    height: 160px;
+    margin-top: 10px;
+  }
+  
+  .Product-description {
+    font-size: 20px;
+  }
+
+
+
+
+
+
+  
+.btn {
+    text-align: center;
+    margin-top: -20px;
+  }
+    
+  .btn a {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding: 15px 70px;
+    background-color: blue;
+    color: #fff;
+    position: relative;
+    border-radius: 5px;
+  }
+ 
+    
+  .btn a.update-btn:hover,
+  .btn a.delete-btn:hover {
+    background-color: #111111cc;
+    padding: 13px 68px;
+  }
+
+  .btn a.delete-btn{
+    background-color: rgb(255, 0, 13);
+
+  }
+
+
+.buy-btn{
+    display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  padding: 15px 70px;
+  background-color: blue;
+  color: #fff;
+  margin: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background-color: #111111cc;
+    padding: 13px 68px;
+  }
+
+
+  .btn-icon2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+
+.b-btn{
+    margin-left: 1600px;
+}

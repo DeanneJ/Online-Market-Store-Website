@@ -1,0 +1,118 @@
+/*html,body{
+    
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+      
+}*/
+
+/* Styles for the ShopZilla heading */
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/*Styles for the container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    max-width: 700px;
+    padding: 40px;
+    background-color: #ffffffe8;
+    background-image: url("Images/back.jpg");
+    box-shadow: 5px 5px 8px 5px rgba(101, 139, 244, 0.456);
+    margin: 10px auto 100px;
+    border-radius: 50px;
+  }
+
+
+  /*Styles for the Sign Up heading*/
+  h2 {
+    text-align: center;
+    font-size:250%;
+    margin-bottom:-20px;
+  
+  }
+
+  
+  /*Styles for the form*/
+  form {
+    width: 500px;
+    font-size: 150%;
+    margin-top: 5px;
+    font-weight: 1500;
+    
+  }
+
+  
+
+
+ /*Styles for the textboxes*/
+  .details{
+    width:500px;
+    height:40px;
+    margin-top:5px;
+  }
+  
+   /*Styles for the textarea*/
+  #textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color:#3b3636;
+    font-size: medium;
+    padding-right:5px;
+    width:500px;
+    
+  }
+  
+  
+  /* Styles for submit button */
+.sign_up{
+    background-color: #3550ffba;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+   
+}
+
+/* Styles for submit button on hover */
+.sign_up:hover {
+    background-color: #7487ff;
+   
+}
+
+
+  /*Styles for Alraedy a user? and login */
+  h4 {
+    text-align: center;
+    margin-top:1px;
+    }
+
+
+    /*Styles for update button*/
+    .btn-primary
+    {
+    background-color: #3550ffba;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    }

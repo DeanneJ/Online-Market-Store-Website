@@ -1,0 +1,74 @@
+
+/* Styles for the Update Seller page */
+
+/* Styles for the container */
+.container {
+    max-width: 1000px;
+    padding: 40px;
+    background-color: #ffffffe8;
+    background-image: url("Images/back.jpg");
+    box-shadow: 5px 5px 8px 5px rgba(101, 139, 244, 0.456);
+    margin: 10px auto 100px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+/* Styles for the heading */
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 140%;
+    
+}
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:350px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
